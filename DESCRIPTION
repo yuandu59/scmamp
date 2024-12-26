@@ -19,7 +19,8 @@ Imports:
     utils,
     methods,
     graphics,
-    reshape2
+    reshape2,
+    sp
 VignetteBuilder: knitr
 Description: Given a matrix with results of different algorithms for different
     problems, the package uses statistical tests and corrections to assess the
