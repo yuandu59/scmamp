@@ -553,7 +553,7 @@ drawAlgorithmGraph <- function (pvalue.matrix, mean.value, ...,
   
   attrs <- list(node=list(shape="rectangle", width=node.width, height=node.height,
                           fontcolor=font.color, fontsize=font.size))
-  plot(am.graph, ... , nodeAttrs=nAttrs, attrs=attrs)
+  sp::plot(am.graph, ... , nodeAttrs=nAttrs, attrs=attrs)
 }
 
 
